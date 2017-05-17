@@ -1,0 +1,14 @@
+.btn{
+  &-ver{
+    border-radius: 20px;
+    padding: 6px 40px;
+  }
+}
+
+.btn-default{
+  @include gradient-buttons(lighten($blue-sky, 40%), $blue-sky);
+
+  &:hover{
+    @include gradient-buttons(lighten($orange, 40%), $orange);
+  }
+}

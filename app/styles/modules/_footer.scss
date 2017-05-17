@@ -1,0 +1,47 @@
+footer{
+  @include gradient-footer($grey, $color-dark-grey, $black);
+  .contact{
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    a.without-color{
+      color: transparent;
+    }
+    .icon-contact{
+      font-size: 4rem;
+      color: $white;
+      &.fa-stack-1x{
+        font-size: 3rem;
+      }
+    }
+    .facebook{
+      color: $background-facebook;
+    }
+    .google-plus{
+      color: $background-google-plus;
+    }
+    .linkedin{
+      color: $background-linkedin;
+    }
+    .skype{
+      color: $background-skype;
+    }
+    .twitter{
+      color: $background-twitter;
+    }
+    .email{
+      color: $white;
+    }
+  }
+  .copyright{
+    background-color: $background-footer;
+    color: $white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    line-height: 2;
+    span{
+      vertical-align: middle;
+    }
+  }
+}

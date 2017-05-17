@@ -54,3 +54,55 @@
     }
   }
 }
+
+//Mixin para las animaciones de las barras de progreso
+@mixin animation-skills( $animationName, $duration, $iteration, $direction, $percentaje ) {
+  -webkit-animation: $animationName $duration $iteration $direction;
+  -moz-animation: $animationName $duration $iteration $direction;
+  -ms-animation: $animationName $duration $iteration $direction;
+  animation: $animationName $duration $iteration $direction;
+
+  @-webkit-keyframes #{$animationName} {
+    from { }
+
+    to { width: $percentaje }
+  }
+
+  @-moz-keyframes #{$animationName} {
+    from { }
+
+    to { width: $percentaje }
+  }
+
+  @-ms-keyframes #{$animationName} {
+    from { }
+
+    to { width: $percentaje }
+  }
+
+  @keyframes #{$animationName} {
+    from { }
+    to { width: $percentaje }
+  }
+}
+
+
+//Mixin para el degradado vertical
+@mixin gradient-buttons($top, $bottom){
+  background: $top;
+  background: -moz-linear-gradient(top,  $top 0%, $bottom 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom));
+  background: -webkit-linear-gradient(top,  $top 0%,$bottom 100%);
+  background: -o-linear-gradient(top,  $top 0%,$bottom 100%);
+  background: -ms-linear-gradient(top,  $top 0%,$bottom 100%);
+  background: linear-gradient(to bottom,  $top 0%,$bottom 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0);
+}
+
+@mixin gradient-footer($top, $middle, $bottom){
+  background: $top;
+  background: -moz-linear-gradient(top,  $top 0%, $middle 60%, $middle 60%, $bottom 100%);
+  background: -webkit-linear-gradient(top,  $top 0%, $middle 60%, $middle 60%,$bottom 100%);
+  background: linear-gradient(to bottom,  $top 0%, $middle 60%, $middle 60%,$bottom 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#000000',GradientType=0 );
+}

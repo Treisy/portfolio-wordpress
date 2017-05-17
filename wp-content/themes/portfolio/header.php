@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lamg="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="description" content="Proyecto Final del curso de Programacion Web">
@@ -8,11 +8,7 @@
 	<title>Portafolio</title>
 	<meta name="keywords" content="html6 css3 proyecto programacion inicio">
 	<meta name="author" content="Treisy Jimenez Vega">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-	<link rel="stylesheet" href="styles/css/vendors/bootstrap.min.css" media="all">
-	<link rel="stylesheet" href="styles/css/vendors/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="styles/css/vendors/font-awesome.min.css">
-	<link rel="stylesheet" href="styles/css/style.css">
+	<?php wp_head(); ?>
 </head>
 <body>
 	<header>
