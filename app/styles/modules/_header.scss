@@ -1,0 +1,58 @@
+header{
+	.hero-image{
+		width: 100%;
+		height: 400px;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		.text-wrapper{
+			position: relative;
+			height: 400px;
+			width: 100%;
+			.title-section{
+				position: absolute;
+				margin: auto;
+				top: 50%;
+				width: 100%;
+			}
+		}
+		&.home{
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+		}
+		&.portfolio{
+			background-image: url('../../images/generales/portafolio.jpg');
+			.title-section{
+				color: $white;
+			}
+		}
+		&.skills{
+			background-image: url('../../images/generales/habilidades.jpg');
+		}
+		&.experience{
+			background-image: url('../../images/generales/experiencia.jpeg');
+		}
+		&.certifications{
+			background-image: url('../../images/generales/certificaciones.jpeg');
+		}
+	}
+	.navbar-collapse{
+		.navbar-nav{
+		  .active{
+			a{
+			  color: $orange;
+			  &:hover{
+				color: $blue-sky;
+			  }
+			}
+		  }
+		  li{
+			a:hover{
+			  color: $blue-sky;
+			}
+		  }
+		}
+	}
+}

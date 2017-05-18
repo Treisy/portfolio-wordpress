@@ -23,21 +23,23 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">
-									<img alt="Brand" src="images/generales/logo.png" height="30" width="62">
-								</a>
+						<a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>">
+							<img alt="Logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" height="30" width="62">
+						</a>
 					</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="pages/portafolio.html">Portafolio</a></li>
-							<li><a href="pages/habilidades.html">Habilidades</a></li>
-							<li><a href="pages/experiencia.html">Experiencia</a></li>
-							<li><a href="pages/certificaciones.html">Certificaciones</a></li>
-						</ul>
+						<?php 
+							$args = array(
+								'theme_location' => 'header-menu',
+								'container' => 'ul',
+								'menu_class' => 'nav navbar-nav navbar-right'
+							);
+							wp_nav_menu( $args );
+						?>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
-			<div class="hero-image home"></div>
+			<div class="hero-image home" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/principal.jpg')"></div>
 		</div>
 	</header>

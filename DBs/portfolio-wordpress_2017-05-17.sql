@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.6.35)
 # Base de datos: portfolio-wordpress
-# Tiempo de Generación: 2017-05-17 20:55:17 +0000
+# Tiempo de Generación: 2017-05-18 02:38:02 +0000
 # ************************************************************
 
 
@@ -160,8 +160,8 @@ VALUES
 	(37,'gmt_offset','0','yes'),
 	(38,'default_email_category','1','yes'),
 	(39,'recently_edited','','no'),
-	(40,'template','twentyseventeen','yes'),
-	(41,'stylesheet','twentyseventeen','yes'),
+	(40,'template','portfolio','yes'),
+	(41,'stylesheet','portfolio','yes'),
 	(42,'comment_whitelist','1','yes'),
 	(43,'blacklist_keys','','no'),
 	(44,'comment_registration','0','yes'),
@@ -213,24 +213,22 @@ VALUES
 	(90,'medium_large_size_h','0','yes'),
 	(91,'initial_db_version','38590','yes'),
 	(92,'wp_user_roles','a:5:{s:13:\"administrator\";a:2:{s:4:\"name\";s:13:\"Administrator\";s:12:\"capabilities\";a:61:{s:13:\"switch_themes\";b:1;s:11:\"edit_themes\";b:1;s:16:\"activate_plugins\";b:1;s:12:\"edit_plugins\";b:1;s:10:\"edit_users\";b:1;s:10:\"edit_files\";b:1;s:14:\"manage_options\";b:1;s:17:\"moderate_comments\";b:1;s:17:\"manage_categories\";b:1;s:12:\"manage_links\";b:1;s:12:\"upload_files\";b:1;s:6:\"import\";b:1;s:15:\"unfiltered_html\";b:1;s:10:\"edit_posts\";b:1;s:17:\"edit_others_posts\";b:1;s:20:\"edit_published_posts\";b:1;s:13:\"publish_posts\";b:1;s:10:\"edit_pages\";b:1;s:4:\"read\";b:1;s:8:\"level_10\";b:1;s:7:\"level_9\";b:1;s:7:\"level_8\";b:1;s:7:\"level_7\";b:1;s:7:\"level_6\";b:1;s:7:\"level_5\";b:1;s:7:\"level_4\";b:1;s:7:\"level_3\";b:1;s:7:\"level_2\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:17:\"edit_others_pages\";b:1;s:20:\"edit_published_pages\";b:1;s:13:\"publish_pages\";b:1;s:12:\"delete_pages\";b:1;s:19:\"delete_others_pages\";b:1;s:22:\"delete_published_pages\";b:1;s:12:\"delete_posts\";b:1;s:19:\"delete_others_posts\";b:1;s:22:\"delete_published_posts\";b:1;s:20:\"delete_private_posts\";b:1;s:18:\"edit_private_posts\";b:1;s:18:\"read_private_posts\";b:1;s:20:\"delete_private_pages\";b:1;s:18:\"edit_private_pages\";b:1;s:18:\"read_private_pages\";b:1;s:12:\"delete_users\";b:1;s:12:\"create_users\";b:1;s:17:\"unfiltered_upload\";b:1;s:14:\"edit_dashboard\";b:1;s:14:\"update_plugins\";b:1;s:14:\"delete_plugins\";b:1;s:15:\"install_plugins\";b:1;s:13:\"update_themes\";b:1;s:14:\"install_themes\";b:1;s:11:\"update_core\";b:1;s:10:\"list_users\";b:1;s:12:\"remove_users\";b:1;s:13:\"promote_users\";b:1;s:18:\"edit_theme_options\";b:1;s:13:\"delete_themes\";b:1;s:6:\"export\";b:1;}}s:6:\"editor\";a:2:{s:4:\"name\";s:6:\"Editor\";s:12:\"capabilities\";a:34:{s:17:\"moderate_comments\";b:1;s:17:\"manage_categories\";b:1;s:12:\"manage_links\";b:1;s:12:\"upload_files\";b:1;s:15:\"unfiltered_html\";b:1;s:10:\"edit_posts\";b:1;s:17:\"edit_others_posts\";b:1;s:20:\"edit_published_posts\";b:1;s:13:\"publish_posts\";b:1;s:10:\"edit_pages\";b:1;s:4:\"read\";b:1;s:7:\"level_7\";b:1;s:7:\"level_6\";b:1;s:7:\"level_5\";b:1;s:7:\"level_4\";b:1;s:7:\"level_3\";b:1;s:7:\"level_2\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:17:\"edit_others_pages\";b:1;s:20:\"edit_published_pages\";b:1;s:13:\"publish_pages\";b:1;s:12:\"delete_pages\";b:1;s:19:\"delete_others_pages\";b:1;s:22:\"delete_published_pages\";b:1;s:12:\"delete_posts\";b:1;s:19:\"delete_others_posts\";b:1;s:22:\"delete_published_posts\";b:1;s:20:\"delete_private_posts\";b:1;s:18:\"edit_private_posts\";b:1;s:18:\"read_private_posts\";b:1;s:20:\"delete_private_pages\";b:1;s:18:\"edit_private_pages\";b:1;s:18:\"read_private_pages\";b:1;}}s:6:\"author\";a:2:{s:4:\"name\";s:6:\"Author\";s:12:\"capabilities\";a:10:{s:12:\"upload_files\";b:1;s:10:\"edit_posts\";b:1;s:20:\"edit_published_posts\";b:1;s:13:\"publish_posts\";b:1;s:4:\"read\";b:1;s:7:\"level_2\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:12:\"delete_posts\";b:1;s:22:\"delete_published_posts\";b:1;}}s:11:\"contributor\";a:2:{s:4:\"name\";s:11:\"Contributor\";s:12:\"capabilities\";a:5:{s:10:\"edit_posts\";b:1;s:4:\"read\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:12:\"delete_posts\";b:1;}}s:10:\"subscriber\";a:2:{s:4:\"name\";s:10:\"Subscriber\";s:12:\"capabilities\";a:2:{s:4:\"read\";b:1;s:7:\"level_0\";b:1;}}}','yes'),
-	(93,'fresh_site','1','yes'),
+	(93,'fresh_site','0','yes'),
 	(94,'widget_search','a:2:{i:2;a:1:{s:5:\"title\";s:0:\"\";}s:12:\"_multiwidget\";i:1;}','yes'),
 	(95,'widget_recent-posts','a:2:{i:2;a:2:{s:5:\"title\";s:0:\"\";s:6:\"number\";i:5;}s:12:\"_multiwidget\";i:1;}','yes'),
 	(96,'widget_recent-comments','a:2:{i:2;a:2:{s:5:\"title\";s:0:\"\";s:6:\"number\";i:5;}s:12:\"_multiwidget\";i:1;}','yes'),
 	(97,'widget_archives','a:2:{i:2;a:3:{s:5:\"title\";s:0:\"\";s:5:\"count\";i:0;s:8:\"dropdown\";i:0;}s:12:\"_multiwidget\";i:1;}','yes'),
 	(98,'widget_meta','a:2:{i:2;a:1:{s:5:\"title\";s:0:\"\";}s:12:\"_multiwidget\";i:1;}','yes'),
-	(99,'sidebars_widgets','a:5:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}s:13:\"array_version\";i:3;}','yes'),
+	(99,'sidebars_widgets','a:3:{s:19:\"wp_inactive_widgets\";a:0:{}s:18:\"orphaned_widgets_1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:13:\"array_version\";i:3;}','yes'),
 	(100,'widget_pages','a:1:{s:12:\"_multiwidget\";i:1;}','yes'),
 	(101,'widget_calendar','a:1:{s:12:\"_multiwidget\";i:1;}','yes'),
 	(102,'widget_tag_cloud','a:1:{s:12:\"_multiwidget\";i:1;}','yes'),
 	(103,'widget_nav_menu','a:1:{s:12:\"_multiwidget\";i:1;}','yes'),
-	(104,'cron','a:3:{i:1495054374;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1495054388;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}','yes'),
-	(105,'_transient_doing_cron','1495054512.3985159397125244140625','yes'),
+	(104,'cron','a:4:{i:1495054374;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1495054388;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1495062560;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}','yes'),
+	(105,'_transient_doing_cron','1495075059.6639521121978759765625','yes'),
 	(106,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.7.5.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.7.5.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-4.7.5-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-4.7.5-new-bundled.zip\";s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.7.5\";s:7:\"version\";s:5:\"4.7.5\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1495054389;s:15:\"version_checked\";s:5:\"4.7.5\";s:12:\"translations\";a:0:{}}','no'),
 	(107,'_site_transient_update_plugins','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1495054389;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:2:\"15\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"3.3.2\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.3.3.2.zip\";}s:9:\"hello.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:4:\"3564\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";}}}','no'),
-	(108,'_site_transient_timeout_theme_roots','1495056190','no'),
-	(109,'_site_transient_theme_roots','a:3:{s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}','no'),
-	(110,'_site_transient_update_themes','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1495054390;s:7:\"checked\";a:3:{s:13:\"twentyfifteen\";s:3:\"1.7\";s:15:\"twentyseventeen\";s:3:\"1.2\";s:13:\"twentysixteen\";s:3:\"1.3\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}','no'),
+	(110,'_site_transient_update_themes','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1495064552;s:7:\"checked\";a:4:{s:9:\"portfolio\";s:3:\"1.0\";s:13:\"twentyfifteen\";s:3:\"1.7\";s:15:\"twentyseventeen\";s:3:\"1.2\";s:13:\"twentysixteen\";s:3:\"1.3\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}','no'),
 	(111,'_site_transient_timeout_browser_be0ff8791ae794e1841efdd14b50475f','1495659191','no'),
 	(112,'_site_transient_browser_be0ff8791ae794e1841efdd14b50475f','a:9:{s:8:\"platform\";s:9:\"Macintosh\";s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:13:\"58.0.3029.110\";s:10:\"update_url\";s:28:\"http://www.google.com/chrome\";s:7:\"img_src\";s:49:\"http://s.wordpress.org/images/browsers/chrome.png\";s:11:\"img_src_ssl\";s:48:\"https://wordpress.org/images/browsers/chrome.png\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;}','no'),
 	(113,'can_compress_scripts','1','no'),
@@ -252,7 +250,14 @@ VALUES
 	(126,'_transient_timeout_plugin_slugs','1495140797','no'),
 	(127,'_transient_plugin_slugs','a:2:{i:0;s:19:\"akismet/akismet.php\";i:1;s:9:\"hello.php\";}','no'),
 	(128,'_transient_timeout_dash_88ae138922fe95674369b1cb3d215a2b','1495097597','no'),
-	(129,'_transient_dash_88ae138922fe95674369b1cb3d215a2b','<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2017/05/wordpress-4-7-5/\'>WordPress 4.7.5 Security and Maintenance Release</a> <span class=\"rss-date\">May 16, 2017</span><div class=\"rssSummary\">WordPress 4.7.5 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.7.4 and earlier are affected by six security issues: Insufficient redirect validation in the HTTP class. Reported by Ronni Skansing. Improper handling of post meta data values in the XML-RPC [&hellip;]</div></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/wordcamp-europe-contributor-day-to-host-13-workshops-event-is-nearly-sold-out\'>WPTavern: WordCamp Europe Contributor Day to Host 13 Workshops, Event is Nearly Sold Out</a></li><li><a class=\'rsswidget\' href=\'https://heropress.com/essays/community-saved-life-falling-lifted/\'>HeroPress: Community saved my life: Falling down, lifted up.</a></li><li><a class=\'rsswidget\' href=\'https://ma.tt/2017/05/new-tv-ads/\'>Matt: New TV Ads</a></li></ul></div><div class=\"rss-widget\"><ul><li class=\"dashboard-news-plugin\"><span>Popular Plugin:</span> Jetpack by WordPress.com&nbsp;<a href=\"plugin-install.php?tab=plugin-information&amp;plugin=jetpack&amp;_wpnonce=6d3c89fdac&amp;TB_iframe=true&amp;width=600&amp;height=800\" class=\"thickbox open-plugin-details-modal\" aria-label=\"Install Jetpack by WordPress.com\">(Install)</a></li></ul></div>','no');
+	(129,'_transient_dash_88ae138922fe95674369b1cb3d215a2b','<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2017/05/wordpress-4-7-5/\'>WordPress 4.7.5 Security and Maintenance Release</a> <span class=\"rss-date\">May 16, 2017</span><div class=\"rssSummary\">WordPress 4.7.5 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.7.4 and earlier are affected by six security issues: Insufficient redirect validation in the HTTP class. Reported by Ronni Skansing. Improper handling of post meta data values in the XML-RPC [&hellip;]</div></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/wordcamp-europe-contributor-day-to-host-13-workshops-event-is-nearly-sold-out\'>WPTavern: WordCamp Europe Contributor Day to Host 13 Workshops, Event is Nearly Sold Out</a></li><li><a class=\'rsswidget\' href=\'https://heropress.com/essays/community-saved-life-falling-lifted/\'>HeroPress: Community saved my life: Falling down, lifted up.</a></li><li><a class=\'rsswidget\' href=\'https://ma.tt/2017/05/new-tv-ads/\'>Matt: New TV Ads</a></li></ul></div><div class=\"rss-widget\"><ul><li class=\"dashboard-news-plugin\"><span>Popular Plugin:</span> Jetpack by WordPress.com&nbsp;<a href=\"plugin-install.php?tab=plugin-information&amp;plugin=jetpack&amp;_wpnonce=6d3c89fdac&amp;TB_iframe=true&amp;width=600&amp;height=800\" class=\"thickbox open-plugin-details-modal\" aria-label=\"Install Jetpack by WordPress.com\">(Install)</a></li></ul></div>','no'),
+	(130,'theme_mods_twentyseventeen','a:1:{s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1495054979;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}','yes'),
+	(131,'current_theme','Portfolio','yes'),
+	(132,'theme_mods_portfolio','a:3:{i:0;b:0;s:18:\"custom_css_post_id\";i:-1;s:18:\"nav_menu_locations\";a:2:{s:11:\"header-menu\";i:2;s:11:\"social-menu\";i:3;}}','yes'),
+	(133,'theme_switched','','yes'),
+	(134,'nav_menu_options','a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}','yes'),
+	(135,'_site_transient_timeout_theme_roots','1495066351','no'),
+	(136,'_site_transient_theme_roots','a:4:{s:9:\"portfolio\";s:7:\"/themes\";s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}','no');
 
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -278,7 +283,96 @@ LOCK TABLES `wp_postmeta` WRITE;
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`)
 VALUES
-	(1,2,'_wp_page_template','default');
+	(1,2,'_wp_page_template','default'),
+	(2,4,'_menu_item_type','custom'),
+	(3,4,'_menu_item_menu_item_parent','0'),
+	(4,4,'_menu_item_object_id','4'),
+	(5,4,'_menu_item_object','custom'),
+	(6,4,'_menu_item_target','_blank'),
+	(7,4,'_menu_item_classes','a:4:{i:0;s:8:\"col-xs-2\";i:1;s:8:\"col-sm-1\";i:2;s:8:\"col-md-1\";i:3;s:8:\"facebook\";}'),
+	(8,4,'_menu_item_xfn',''),
+	(9,4,'_menu_item_url','http://facebook.com'),
+	(11,5,'_menu_item_type','custom'),
+	(12,5,'_menu_item_menu_item_parent','0'),
+	(13,5,'_menu_item_object_id','5'),
+	(14,5,'_menu_item_object','custom'),
+	(15,5,'_menu_item_target','_blank'),
+	(16,5,'_menu_item_classes','a:4:{i:0;s:8:\"col-xs-2\";i:1;s:8:\"col-sm-1\";i:2;s:8:\"col-md-1\";i:3;s:11:\"google-plus\";}'),
+	(17,5,'_menu_item_xfn',''),
+	(18,5,'_menu_item_url','http://plus.google.com/?hl=es'),
+	(20,6,'_menu_item_type','custom'),
+	(21,6,'_menu_item_menu_item_parent','0'),
+	(22,6,'_menu_item_object_id','6'),
+	(23,6,'_menu_item_object','custom'),
+	(24,6,'_menu_item_target','_blank'),
+	(25,6,'_menu_item_classes','a:4:{i:0;s:8:\"col-xs-2\";i:1;s:8:\"col-sm-1\";i:2;s:8:\"col-md-1\";i:3;s:8:\"linkedin\";}'),
+	(26,6,'_menu_item_xfn',''),
+	(27,6,'_menu_item_url','http://linkedin.com'),
+	(29,7,'_menu_item_type','custom'),
+	(30,7,'_menu_item_menu_item_parent','0'),
+	(31,7,'_menu_item_object_id','7'),
+	(32,7,'_menu_item_object','custom'),
+	(33,7,'_menu_item_target',''),
+	(34,7,'_menu_item_classes','a:4:{i:0;s:8:\"col-xs-2\";i:1;s:8:\"col-sm-1\";i:2;s:8:\"col-md-1\";i:3;s:5:\"skype\";}'),
+	(35,7,'_menu_item_xfn',''),
+	(36,7,'_menu_item_url','http://skype.com'),
+	(38,8,'_menu_item_type','custom'),
+	(39,8,'_menu_item_menu_item_parent','0'),
+	(40,8,'_menu_item_object_id','8'),
+	(41,8,'_menu_item_object','custom'),
+	(42,8,'_menu_item_target','_blank'),
+	(43,8,'_menu_item_classes','a:4:{i:0;s:8:\"col-xs-2\";i:1;s:8:\"col-sm-1\";i:2;s:8:\"col-md-1\";i:3;s:7:\"twitter\";}'),
+	(44,8,'_menu_item_xfn',''),
+	(45,8,'_menu_item_url','http://twitter.com'),
+	(47,9,'_menu_item_type','custom'),
+	(48,9,'_menu_item_menu_item_parent','0'),
+	(49,9,'_menu_item_object_id','9'),
+	(50,9,'_menu_item_object','custom'),
+	(51,9,'_menu_item_target',''),
+	(52,9,'_menu_item_classes','a:4:{i:0;s:8:\"col-xs-2\";i:1;s:8:\"col-sm-1\";i:2;s:8:\"col-md-1\";i:3;s:5:\"email\";}'),
+	(53,9,'_menu_item_xfn',''),
+	(54,9,'_menu_item_url','http://google.com'),
+	(56,10,'_edit_last','1'),
+	(57,10,'_edit_lock','1495064407:1'),
+	(58,12,'_edit_last','1'),
+	(59,12,'_edit_lock','1495062463:1'),
+	(60,14,'_edit_last','1'),
+	(61,14,'_edit_lock','1495062475:1'),
+	(62,16,'_edit_last','1'),
+	(63,16,'_edit_lock','1495062485:1'),
+	(64,18,'_menu_item_type','post_type'),
+	(65,18,'_menu_item_menu_item_parent','0'),
+	(66,18,'_menu_item_object_id','16'),
+	(67,18,'_menu_item_object','page'),
+	(68,18,'_menu_item_target',''),
+	(69,18,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
+	(70,18,'_menu_item_xfn',''),
+	(71,18,'_menu_item_url',''),
+	(73,19,'_menu_item_type','post_type'),
+	(74,19,'_menu_item_menu_item_parent','0'),
+	(75,19,'_menu_item_object_id','14'),
+	(76,19,'_menu_item_object','page'),
+	(77,19,'_menu_item_target',''),
+	(78,19,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
+	(79,19,'_menu_item_xfn',''),
+	(80,19,'_menu_item_url',''),
+	(82,20,'_menu_item_type','post_type'),
+	(83,20,'_menu_item_menu_item_parent','0'),
+	(84,20,'_menu_item_object_id','12'),
+	(85,20,'_menu_item_object','page'),
+	(86,20,'_menu_item_target',''),
+	(87,20,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
+	(88,20,'_menu_item_xfn',''),
+	(89,20,'_menu_item_url',''),
+	(91,21,'_menu_item_type','post_type'),
+	(92,21,'_menu_item_menu_item_parent','0'),
+	(93,21,'_menu_item_object_id','10'),
+	(94,21,'_menu_item_object','page'),
+	(95,21,'_menu_item_target',''),
+	(96,21,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
+	(97,21,'_menu_item_xfn',''),
+	(98,21,'_menu_item_url',''),
+	(100,2,'_edit_lock','1495065051:1');
 
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -327,7 +421,26 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 VALUES
 	(1,1,'2017-05-17 20:52:20','2017-05-17 20:52:20','Welcome to WordPress. This is your first post. Edit or delete it, then start writing!','Hello world!','','publish','open','open','','hello-world','','','2017-05-17 20:52:20','2017-05-17 20:52:20','',0,'http://localhost:8888/portfolio-wordpress/?p=1',0,'post','',1),
 	(2,1,'2017-05-17 20:52:20','2017-05-17 20:52:20','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"http://localhost:8888/portfolio-wordpress/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','publish','closed','open','','sample-page','','','2017-05-17 20:52:20','2017-05-17 20:52:20','',0,'http://localhost:8888/portfolio-wordpress/?page_id=2',0,'page','',0),
-	(3,1,'2017-05-17 20:53:11','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2017-05-17 20:53:11','0000-00-00 00:00:00','',0,'http://localhost:8888/portfolio-wordpress/?p=3',0,'post','',0);
+	(3,1,'2017-05-17 20:53:11','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2017-05-17 20:53:11','0000-00-00 00:00:00','',0,'http://localhost:8888/portfolio-wordpress/?p=3',0,'post','',0),
+	(4,1,'2017-05-17 23:08:34','2017-05-17 23:08:34','','Facebook','Facebook','publish','closed','closed','','facebook','','','2017-05-18 01:53:38','2017-05-18 01:53:38','',0,'http://localhost:8888/portfolio-wordpress/?p=4',1,'nav_menu_item','',0),
+	(5,1,'2017-05-17 23:08:34','2017-05-17 23:08:34','','Google +','Google Plus','publish','closed','closed','','google','','','2017-05-18 01:53:38','2017-05-18 01:53:38','',0,'http://localhost:8888/portfolio-wordpress/?p=5',2,'nav_menu_item','',0),
+	(6,1,'2017-05-17 23:08:34','2017-05-17 23:08:34','','LinkedIn','LinkedIn','publish','closed','closed','','linkedin','','','2017-05-18 01:53:38','2017-05-18 01:53:38','',0,'http://localhost:8888/portfolio-wordpress/?p=6',3,'nav_menu_item','',0),
+	(7,1,'2017-05-17 23:08:34','2017-05-17 23:08:34','','Skype','Skype','publish','closed','closed','','skype','','','2017-05-18 01:53:38','2017-05-18 01:53:38','',0,'http://localhost:8888/portfolio-wordpress/?p=7',4,'nav_menu_item','',0),
+	(8,1,'2017-05-17 23:08:34','2017-05-17 23:08:34','','Twitter','Twitter','publish','closed','closed','','twitter','','','2017-05-18 01:53:38','2017-05-18 01:53:38','',0,'http://localhost:8888/portfolio-wordpress/?p=8',5,'nav_menu_item','',0),
+	(9,1,'2017-05-17 23:08:34','2017-05-17 23:08:34','','Email','Email','publish','closed','closed','','email','','','2017-05-18 01:53:38','2017-05-18 01:53:38','',0,'http://localhost:8888/portfolio-wordpress/?p=9',6,'nav_menu_item','',0),
+	(10,1,'2017-05-17 23:09:32','2017-05-17 23:09:32','hola portafolio','Portfolio','','publish','closed','closed','','portfolio','','','2017-05-17 23:13:44','2017-05-17 23:13:44','',0,'http://localhost:8888/portfolio-wordpress/?page_id=10',0,'page','',0),
+	(11,1,'2017-05-17 23:09:32','2017-05-17 23:09:32','','Portfolio','','inherit','closed','closed','','10-revision-v1','','','2017-05-17 23:09:32','2017-05-17 23:09:32','',10,'http://localhost:8888/portfolio-wordpress/?p=11',0,'revision','',0),
+	(12,1,'2017-05-17 23:10:05','2017-05-17 23:10:05','','Habilidades','','publish','closed','closed','','habilidades','','','2017-05-17 23:10:05','2017-05-17 23:10:05','',0,'http://localhost:8888/portfolio-wordpress/?page_id=12',0,'page','',0),
+	(13,1,'2017-05-17 23:10:05','2017-05-17 23:10:05','','Habilidades','','inherit','closed','closed','','12-revision-v1','','','2017-05-17 23:10:05','2017-05-17 23:10:05','',12,'http://localhost:8888/portfolio-wordpress/?p=13',0,'revision','',0),
+	(14,1,'2017-05-17 23:10:17','2017-05-17 23:10:17','','Experiencia','','publish','closed','closed','','experiencia','','','2017-05-17 23:10:17','2017-05-17 23:10:17','',0,'http://localhost:8888/portfolio-wordpress/?page_id=14',0,'page','',0),
+	(15,1,'2017-05-17 23:10:17','2017-05-17 23:10:17','','Experiencia','','inherit','closed','closed','','14-revision-v1','','','2017-05-17 23:10:17','2017-05-17 23:10:17','',14,'http://localhost:8888/portfolio-wordpress/?p=15',0,'revision','',0),
+	(16,1,'2017-05-17 23:10:24','2017-05-17 23:10:24','','Certificaciones','','publish','closed','closed','','certificaciones','','','2017-05-17 23:10:24','2017-05-17 23:10:24','',0,'http://localhost:8888/portfolio-wordpress/?page_id=16',0,'page','',0),
+	(17,1,'2017-05-17 23:10:24','2017-05-17 23:10:24','','Certificaciones','','inherit','closed','closed','','16-revision-v1','','','2017-05-17 23:10:24','2017-05-17 23:10:24','',16,'http://localhost:8888/portfolio-wordpress/?p=17',0,'revision','',0),
+	(18,1,'2017-05-17 23:11:00','2017-05-17 23:11:00',' ','','','publish','closed','closed','','18','','','2017-05-18 02:02:21','2017-05-18 02:02:21','',0,'http://localhost:8888/portfolio-wordpress/?p=18',4,'nav_menu_item','',0),
+	(19,1,'2017-05-17 23:11:00','2017-05-17 23:11:00',' ','','','publish','closed','closed','','19','','','2017-05-18 02:02:21','2017-05-18 02:02:21','',0,'http://localhost:8888/portfolio-wordpress/?p=19',3,'nav_menu_item','',0),
+	(20,1,'2017-05-17 23:11:00','2017-05-17 23:11:00',' ','','','publish','closed','closed','','20','','','2017-05-18 02:02:21','2017-05-18 02:02:21','',0,'http://localhost:8888/portfolio-wordpress/?p=20',2,'nav_menu_item','',0),
+	(21,1,'2017-05-17 23:11:00','2017-05-17 23:11:00',' ','','','publish','closed','closed','','21','','','2017-05-18 02:02:21','2017-05-18 02:02:21','',0,'http://localhost:8888/portfolio-wordpress/?p=21',1,'nav_menu_item','',0),
+	(22,1,'2017-05-17 23:13:44','2017-05-17 23:13:44','hola portafolio','Portfolio','','inherit','closed','closed','','10-revision-v1','','','2017-05-17 23:13:44','2017-05-17 23:13:44','',10,'http://localhost:8888/portfolio-wordpress/?p=22',0,'revision','',0);
 
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -351,7 +464,17 @@ LOCK TABLES `wp_term_relationships` WRITE;
 
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`)
 VALUES
-	(1,1,0);
+	(1,1,0),
+	(4,3,0),
+	(5,3,0),
+	(6,3,0),
+	(7,3,0),
+	(8,3,0),
+	(9,3,0),
+	(18,2,0),
+	(19,2,0),
+	(20,2,0),
+	(21,2,0);
 
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -379,7 +502,9 @@ LOCK TABLES `wp_term_taxonomy` WRITE;
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`)
 VALUES
-	(1,1,'category','',0,1);
+	(1,1,'category','',0,1),
+	(2,2,'nav_menu','',0,4),
+	(3,3,'nav_menu','',0,6);
 
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -422,7 +547,9 @@ LOCK TABLES `wp_terms` WRITE;
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`)
 VALUES
-	(1,'Uncategorized','uncategorized',0);
+	(1,'Uncategorized','uncategorized',0),
+	(2,'Header','header',0),
+	(3,'Social','social',0);
 
 /*!40000 ALTER TABLE `wp_terms` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -463,7 +590,10 @@ VALUES
 	(13,1,'dismissed_wp_pointers',''),
 	(14,1,'show_welcome_panel','1'),
 	(15,1,'session_tokens','a:1:{s:64:\"1489d31ebf7d4395a8b8b5c8e1459e6b18b70299c7dd9d09f06043d5174b8e07\";a:4:{s:10:\"expiration\";i:1495227188;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\";s:5:\"login\";i:1495054388;}}'),
-	(16,1,'wp_dashboard_quick_press_last_post_id','3');
+	(16,1,'wp_dashboard_quick_press_last_post_id','3'),
+	(17,1,'managenav-menuscolumnshidden','a:2:{i:0;s:3:\"xfn\";i:1;s:11:\"description\";}'),
+	(18,1,'metaboxhidden_nav-menus','a:1:{i:0;s:12:\"add-post_tag\";}'),
+	(19,1,'nav_menu_recently_edited','2');
 
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;

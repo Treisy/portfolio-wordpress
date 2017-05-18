@@ -1,5 +1,66 @@
 footer{
   @include gradient-footer($grey, $color-dark-grey, $black);
+  #menu-social {
+    list-style: none;
+
+    li {
+      a{
+        &:before{
+          font-family: "FontAwesome";
+          display: inline-block;
+          vertical-align: top;
+          font-size: 3rem;
+        }
+        &[title*="Facebook"]{
+          color: $background-facebook;
+
+          &:before{
+            content: "\f082";
+          }
+        }
+        &[title*="Google Plus"]{
+          color: $background-google-plus;
+
+          &:before{
+            content: "\f082";
+          }
+        }
+        &[title*="LinkedIn"]{
+          color: $background-linkedin;
+
+          &:before{
+            content: "\f082";
+          }
+        }
+        &[title*="Skype"]{
+          color: $background-skype;
+
+          &:before{
+            content: "\f082";
+          }
+        }
+        &[title*="Twitter"]{
+          color: $background-twitter;
+
+          &:before{
+            content: "\f082";
+          }
+        }
+        &[title*="Email"]{
+          color: $white;
+
+          &:before{
+            content: "\f082";
+          }
+        }
+      }
+
+      .sr-text {
+        display: none;
+      }
+
+    }
+  }
   .contact{
     padding-bottom: 5rem;
     padding-top: 2rem;
@@ -12,24 +73,6 @@ footer{
       &.fa-stack-1x{
         font-size: 3rem;
       }
-    }
-    .facebook{
-      color: $background-facebook;
-    }
-    .google-plus{
-      color: $background-google-plus;
-    }
-    .linkedin{
-      color: $background-linkedin;
-    }
-    .skype{
-      color: $background-skype;
-    }
-    .twitter{
-      color: $background-twitter;
-    }
-    .email{
-      color: $white;
     }
   }
   .copyright{

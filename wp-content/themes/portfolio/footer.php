@@ -5,7 +5,18 @@
 					<div class="col-xs-12 col-sm-6 col-md-6">
 						<h2>Contáctame en:</h2>
 					</div>
-					<div class="col-xs-2 col-sm-1 col-md-1">
+                    <?php 
+                        $args = array(
+                            'theme_location' => 'social-menu',
+                            'container' => 'ul',
+                            'menu_class' => '',
+                            'link_before' => '<span class="sr-text">',
+                            'link_after' => '</span>'
+                        );
+                        wp_nav_menu( $args );
+                    ?>
+
+				    <div class="col-xs-2 col-sm-1 col-md-1">
               <a href="" class="without-color">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-square fa-stack-2x icon-contact"></i>
