@@ -11,6 +11,7 @@ footer{
           vertical-align: top;
           font-size: 3rem;
         }
+
         &[title*="Facebook"]{
           color: $background-facebook;
 
@@ -18,39 +19,44 @@ footer{
             content: "\f082";
           }
         }
+
         &[title*="Google Plus"]{
           color: $background-google-plus;
 
           &:before{
-            content: "\f082";
+            content: "\f2b3";
           }
         }
+
         &[title*="LinkedIn"]{
           color: $background-linkedin;
 
           &:before{
-            content: "\f082";
+            content: "\f08c";
           }
         }
+
         &[title*="Skype"]{
           color: $background-skype;
 
           &:before{
-            content: "\f082";
+            content: "\f17e";
           }
         }
+
         &[title*="Twitter"]{
           color: $background-twitter;
 
           &:before{
-            content: "\f082";
+            content: "\f081";
           }
         }
+
         &[title*="Email"]{
           color: $white;
 
           &:before{
-            content: "\f082";
+            content: "\f003";
           }
         }
       }

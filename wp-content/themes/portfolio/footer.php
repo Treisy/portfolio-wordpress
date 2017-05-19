@@ -15,55 +15,6 @@
                         );
                         wp_nav_menu( $args );
                     ?>
-
-				    <div class="col-xs-2 col-sm-1 col-md-1">
-              <a href="" class="without-color">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-square fa-stack-2x icon-contact"></i>
-                    <i class="fa fa-facebook-official fa-stack-2x facebook"></i>
-                  </span>
-              </a>
-					</div>
-					<div class="col-xs-2 col-sm-1 col-md-1">
-              <a href="" class="without-color">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-square fa-stack-2x icon-contact"></i>
-                    <i class="fa fa-google-plus-square fa-stack-2x google-plus"></i>
-                  </span>
-              </a>
-					</div>
-					<div class="col-xs-2 col-sm-1 col-md-1">
-              <a href="">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-square fa-stack-2x icon-contact"></i>
-                    <i class="fa fa-linkedin-square fa-stack-2x linkedin"></i>
-                  </span>
-              </a>
-					</div>
-					<div class="col-xs-2 col-sm-1 col-md-1">
-              <a href="" class="without-color">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-square fa-stack-1x icon-contact"></i>
-                    <i class="fa fa-skype fa-stack-2x skype"></i>
-                  </span>
-              </a>
-					</div>
-					<div class="col-xs-2 col-sm-1 col-md-1">
-              <a href="" class="without-color">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-square fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-2x twitter"></i>
-                  </span>
-              </a>
-					</div>
-					<div class="col-xs-2 col-sm-1 col-md-1">
-              <a href="" class="without-color">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-square fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-2x email"></i>
-                  </span>
-              </a>
-					</div>
 				</div>
 			</div>
 		</section>
