@@ -1,0 +1,59 @@
+.skills-details{
+  margin: 3rem;
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: $background-progress;
+    background-image: none;
+    margin: .6em 0;
+    border: 1px darken($background-progress, 10%) double;
+    clear: both;
+    border-radius: 10px;
+    .progress {
+      background: $blue-sky;
+      height: 18px;
+      width: 0%;
+      max-width: 100%;
+      float: left;
+      border-radius: 10px;
+      .progress-animation {
+        height: 18px;
+        width: 100%;
+        overflow: hidden;
+        background: url('../../images/generales/stripes-effect.gif') repeat-x;
+        -moz-opacity: 0.25;
+        -khtml-opacity: 0.25;
+        opacity: 0.25;
+        -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=25);
+        filter: alpha(opacity=25);
+        span{
+          color: #000000;
+          font-weight: bolder;
+          text-shadow: 2px 2px #FFFFFF;
+        }
+      }
+      &.width-30pct{
+        @include animation-skills(progress30pct, 2s, 1, forwards, 30%);
+      }
+      &.width-40pct{
+        @include animation-skills(progress40pct, 2s, 1, forwards, 40%);
+      }
+      &.width-50pct{
+        @include animation-skills(progress50pct, 2s, 1, forwards, 50%);
+      }
+      &.width-60pct{
+        @include animation-skills(progress60pct, 2s, 1, forwards, 60%);
+      }
+      &.width-70pct{
+        @include animation-skills(progress70pct, 2s, 1, forwards, 70%);
+      }
+      &.width-80pct{
+        @include animation-skills(progress80pct, 2s, 1, forwards, 80%);
+      }
+      &.width-90pct{
+        @include animation-skills(progress90pct, 2s, 1, forwards, 90%);
+      }
+    }
+  }
+}

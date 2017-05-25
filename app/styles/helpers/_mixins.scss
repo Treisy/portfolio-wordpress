@@ -1,27 +1,4 @@
-//
-// Mixins
-// --------------------------------------------------
-
-// core/_fonts.scss
-@mixin fontNameLight() {
-  // font-family: 'NameLight'; // Light
-}
-@mixin fontCondNameLight() {
-  // font-family: 'NameCondLight'; // Cond Light
-}
-@mixin fontNameRegular() {
-  // font-family: 'Name'; // Regular
-}
-@mixin fontNameMedium() {
-  // font-family: 'NameMedium'; // Medium
-}
-@mixin fontNameBold() {
-  // font-family: 'NameBold'; // Bold
-}
-@mixin fontNameBlack() {
-  // font-family: 'NameBlack'; // Black
-}
-
+//Mixin para aplicar los media queries
 @mixin breakpoint($points) {
   @each $point in $points {
     @if $point == large {
@@ -35,22 +12,6 @@
     }
     @else if $point == phone {
       @media (max-width: $screen-xs-max)  { @content; }
-    }
-  }
-}
-
-@mixin retinabg($img, $width: 0, $height: 0) {
-  @media (-webkit-min-device-pixel-ratio: 1.5),
-  (min--moz-device-pixel-ratio: 1.5),
-  (-o-min-device-pixel-ratio: 3/2),
-  (min-device-pixel-ratio: 1.5),
-  (min-resolution: 144dpi) {
-    background-image: $img;
-    @if $width != 0 {
-      background-size: $width $height;
-    }
-    @if $width == 0 {
-      background-size: contain;
     }
   }
 }
@@ -106,3 +67,4 @@
   background: linear-gradient(to bottom,  $top 0%, $middle 60%, $middle 60%,$bottom 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#000000',GradientType=0 );
 }
+

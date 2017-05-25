@@ -1,0 +1,16 @@
+.experience-detail{
+  margin: 3rem;
+  .panel{
+    .panel-heading{
+      h3.panel-title{
+        font-size: 2.5rem;
+        color: $orange;
+      }
+    }
+    .panel-body{
+      .list-group-item-heading{
+        color: darken($blue-sky, 10%);
+      }
+    }
+  }
+}

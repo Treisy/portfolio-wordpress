@@ -40,6 +40,4 @@
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
-			<div class="hero-image home" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/principal.jpg')"></div>
-		</div>
 	</header>

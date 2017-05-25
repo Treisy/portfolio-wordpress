@@ -1,58 +1,22 @@
 header{
-	.hero-image{
-		width: 100%;
-		height: 400px;
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		.text-wrapper{
-			position: relative;
-			height: 400px;
-			width: 100%;
-			.title-section{
-				position: absolute;
-				margin: auto;
-				top: 50%;
-				width: 100%;
-			}
-		}
-		&.home{
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100vh;
-            width: 100%;
-		}
-		&.portfolio{
-			background-image: url('../../images/generales/portafolio.jpg');
-			.title-section{
-				color: $white;
-			}
-		}
-		&.skills{
-			background-image: url('../../images/generales/habilidades.jpg');
-		}
-		&.experience{
-			background-image: url('../../images/generales/experiencia.jpeg');
-		}
-		&.certifications{
-			background-image: url('../../images/generales/certificaciones.jpeg');
-		}
-	}
 	.navbar-collapse{
-		.navbar-nav{
-		  .active{
-			a{
-			  color: $orange;
-			  &:hover{
-				color: $blue-sky;
-			  }
-			}
-		  }
-		  li{
-			a:hover{
-			  color: $blue-sky;
-			}
-		  }
+	    .navbar-nav{
+		    .current-menu-item{
+			    a{
+			        color: $orange;
+				    background-image: linear-gradient(to bottom,#dbdbdb 0,#e2e2e2 100%);
+				    box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+			        
+                    &:hover{
+				        color: $blue-sky;
+			        }
+			    }
+		    }
+		    li{
+			    a:hover{
+			        color: $blue-sky;
+			    }
+		    }
 		}
 	}
 }

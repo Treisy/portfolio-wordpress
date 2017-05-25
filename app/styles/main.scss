@@ -13,9 +13,8 @@ $icon-font-path: '../fonts/';
 
 
 // Core
-@import "core/fonts";
+@import "core/layout";
 @import "core/typo";
-// @import "core/forms";
 @import "core/buttons";
 
 // bower:scss
@@ -26,6 +25,10 @@ $icon-font-path: '../fonts/';
 // @import "vendors/bootstrap/modal";
 
 // Custom Modulos
+@import "modules/header";
 @import "modules/footer";
 @import "modules/home";
-@import "modules/header";
+@import "modules/portfolio";
+@import "modules/skills";
+@import "modules/experience";
+@import "modules/certifications";
