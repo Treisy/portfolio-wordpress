@@ -9,7 +9,7 @@
         $imagen = get_the_post_thumbnail_url();
     ?>
     <div class="hero-image" style="background-image:url(<?php echo get_the_post_thumbnail_url(); ?>)">
-        <div class="text-wrappe">
+        <div class="text-wrapper">
             <?php the_title('<h1 class="text-center title-section">', '</h1>'); ?>
         </div>
     </div>
@@ -37,7 +37,7 @@
                     <div class="thumbnail">
                         <?php the_post_thumbnail('large'); ?>
                         <div class="caption">
-                            <h3 class="text-center"><?php the_title() ?></h3>
+                            <span class="text-center"><?php the_title() ?></span>
                         </div>
                     </div>
                 </div>

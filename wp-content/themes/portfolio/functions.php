@@ -36,45 +36,6 @@ function portfolio_menus() {
 add_action('init', portfolio_menus);
 
 // Custom fields
-add_action( 'init', 'portfolio_portfolio' );
-function portfolio_portfolio() {
-	$labels = array(
-		'name'               => _x( 'Portfolio', 'portfolio' ),
-		'singular_name'      => _x( 'Portfolio', 'post type singular name', 'portfolio' ),
-		'menu_name'          => _x( 'Portfolio', 'admin menu', 'portfolio' ),
-		'name_admin_bar'     => _x( 'Portfolio', 'add new on admin bar', 'portfolio' ),
-		'add_new'            => _x( 'Add New', 'book', 'portfolio' ),
-		'add_new_item'       => __( 'Add New Portfolio', 'portfolio' ),
-		'new_item'           => __( 'New Portfolio', 'portfolio' ),
-		'edit_item'          => __( 'Edit Portfolio', 'portfolio' ),
-		'view_item'          => __( 'View Portfolio', 'portfolio' ),
-		'all_items'          => __( 'All Portfolio', 'portfolio' ),
-		'search_items'       => __( 'Search Portfolio', 'portfolio' ),
-		'parent_item_colon'  => __( 'Parent Portfolio:', 'portfolio' ),
-		'not_found'          => __( 'No Portfolio found.', 'portfolio' ),
-		'not_found_in_trash' => __( 'No Portfolio found in Trash.', 'portfolio' )
-	);
-
-	$args = array(
-		'labels'             => $labels,
-        'description'        => __( 'Description.', 'portfolio' ),
-		'public'             => true,
-		'publicly_queryable' => true,
-		'show_ui'            => true,
-		'show_in_menu'       => true,
-		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'portfolio' ),
-		'capability_type'    => 'post',
-		'has_archive'        => true,
-		'hierarchical'       => false,
-		'menu_position'      => 6,
-		'supports'           => array( 'title', 'editor', 'thumbnail' ),
-        'taxonomies'          => array( 'category' ),
-	);
-
-	register_post_type( 'portfolio', $args );
-}
-
 add_action( 'init', 'portfolio_certificaciones' );
 function portfolio_certificaciones() {
 	$labels = array(
@@ -151,6 +112,45 @@ function portfolio_experiencia() {
 	);
 
 	register_post_type( 'experiencia', $args );
+}
+
+add_action( 'init', 'portfolio_habilidades' );
+function portfolio_habilidades() {
+	$labels = array(
+		'name'               => _x( 'Habilidades', 'portfolio' ),
+		'singular_name'      => _x( 'Habilidades', 'post type singular name', 'portfolio' ),
+		'menu_name'          => _x( 'Habilidades', 'admin menu', 'portfolio' ),
+		'name_admin_bar'     => _x( 'Habilidades', 'add new on admin bar', 'portfolio' ),
+		'add_new'            => _x( 'Add New', 'book', 'portfolio' ),
+		'add_new_item'       => __( 'Add New Habilidades', 'portfolio' ),
+		'new_item'           => __( 'New Habilidades', 'portfolio' ),
+		'edit_item'          => __( 'Edit Habilidades', 'portfolio' ),
+		'view_item'          => __( 'View Habilidades', 'portfolio' ),
+		'all_items'          => __( 'All Habilidades', 'portfolio' ),
+		'search_items'       => __( 'Search Habilidades', 'portfolio' ),
+		'parent_item_colon'  => __( 'Parent Habilidades:', 'portfolio' ),
+		'not_found'          => __( 'No Habilidades found.', 'portfolio' ),
+		'not_found_in_trash' => __( 'No Habilidades found in Trash.', 'portfolio' )
+	);
+
+	$args = array(
+		'labels'             => $labels,
+        'description'        => __( 'Description.', 'portfolio' ),
+		'public'             => true,
+		'publicly_queryable' => true,
+		'show_ui'            => true,
+		'show_in_menu'       => true,
+		'query_var'          => true,
+		'rewrite'            => array( 'slug' => 'experiencia' ),
+		'capability_type'    => 'post',
+		'has_archive'        => true,
+		'hierarchical'       => false,
+		'menu_position'      => 6,
+		'supports'           => array( 'title', 'editor', 'thumbnail' ),
+        'taxonomies'          => array( 'category' ),
+	);
+
+	register_post_type( 'Habilidades', $args );
 }
 
 ?>
