@@ -19,7 +19,7 @@
 			</div>
 		</section>
 		<div class="container-fluid copyright text-center">
-        <span>2016 ®Copyright</span>
+        <span><?php echo date('Y'); ?> ®Copyright</span>
 		</div>
 	</footer>
 	<!--<script src="scripts/vendors/jquery-3.1.0.min.js"></script>-->

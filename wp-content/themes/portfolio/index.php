@@ -6,7 +6,7 @@
         $imagen = wp_get_attachment_image_src( $imagen, full );
 	?>
 
-	<div class="hero-image" style="background-image:url(<?php echo $imagen[0] ?>)">
+	<div class="hero-image portfolio" style="background-image:url(<?php echo $imagen[0] ?>)">
 		<div class="text-wrapper">
 			<h1 class="text-center title-section"><?php echo get_the_title( $pagina_blog ) ?></h1>
 		</div>
@@ -31,7 +31,7 @@
 						
 						<a href="<?php the_permalink(); ?>">
 							<div class="thumbnail">
-								<?php the_post_thumbnail( 'medium' ); ?>
+								<?php the_post_thumbnail( 'full' ); ?>
 
 								<div class="caption">
 									<?php the_title( '<h3 class="text-center">', '</h3>' ); ?>
