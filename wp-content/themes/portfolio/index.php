@@ -6,7 +6,7 @@
         $imagen = wp_get_attachment_image_src( $imagen, full );
 	?>
 
-	<div class="hero-image portfolio" style="background-image:url(<?php echo $imagen[0] ?>)">
+	<div class="hero-image light-theme" style="background-image:url(<?php echo $imagen[0] ?>)">
 		<div class="text-wrapper">
 			<h1 class="text-center title-section"><?php echo get_the_title( $pagina_blog ) ?></h1>
 		</div>

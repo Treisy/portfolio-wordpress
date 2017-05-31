@@ -21,8 +21,8 @@
                 $args = array(
                     'post_type' => 'experiencia',
                     'posts_per_page' => -1,
-                    'orderby' => 'title',
-                    'order' => 'ASC',
+                    'orderby' => 'date',
+                    'order' => 'DES',
                     'category_name' => 'trabajo' 
                 );
                 $trabajo = new WP_Query( $args );

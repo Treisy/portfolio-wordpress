@@ -21,6 +21,13 @@ function portfolio_styles(){
     wp_enqueue_style('normalize');
     wp_enqueue_style('font-awesome');
     wp_enqueue_style('main');
+
+	// Register JS
+	wp_register_script('scripts', get_template_directory_uri().'/js/main.js', array(), '1.0.0', true);
+
+	// Call JS
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('scripts');
 }
 
 add_action('wp_enqueue_scripts', 'portfolio_styles');

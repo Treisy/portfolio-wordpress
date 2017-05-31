@@ -15,16 +15,18 @@
                         </figure>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <?php 
-                            $repository = the_field('repositorio');
-                            if(!is_null($repository)){  ?>
-                            <p><strong>Repositorio: </strong><?php the_field('repositorio'); ?></p>
-                        <?php } ?>
-                        <p><strong>Repositorio: </strong><?php the_field('repositorio'); ?></p>
-                        <div class="descripcion">
-                            <?php the_content(); ?>
+                        <div class="info">
+                            <div class="descripcion">
+                                <?php the_content(); ?>
+                            </div>
+                            <?php 
+                                if(the_field('repositorio')){  
+                                    $repo = ('<p><span><strong>Repository: </strong></span><span>'.the_field('repositorio').'</span></p>');
+                                }
+                            ?>
+                            
+                            <a href="<?php echo the_field('link'); ?>" class="btn btn-default">View Project</a>
                         </div>
-                        <a href="<?php echo the_field('link'); ?>" class="btn btn-default">View Project</a>
                     </div>
                 </div>
                 <div class="row">

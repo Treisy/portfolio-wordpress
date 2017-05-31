@@ -8,7 +8,7 @@
 <?php 
     $imagen = get_the_post_thumbnail_url();
 ?>
-<div class="hero-image" style="background-image:url(<?php echo get_the_post_thumbnail_url(); ?>)">
+<div class="hero-image light-theme" style="background-image:url(<?php echo get_the_post_thumbnail_url(); ?>)">
     <div class="text-wrapper">
         <?php the_title('<h1 class="text-center title-section">', '</h1>'); ?>
     </div>
