@@ -10,12 +10,11 @@
 ?>
 <div class="hero-image light-theme" style="background-image:url(<?php echo get_the_post_thumbnail_url(); ?>)">
     <div class="text-wrapper">
-        <?php the_title('<h1 class="text-center title-section">', '</h1>'); ?>
+        <?php the_title('<h1 class="text-center title-section light-theme">', '</h1>'); ?>
     </div>
 </div>
 
 <section class="certifications-list">
-    <div class="container">
         <!--Inicio de los títulos universitarios-->
     <article class="">
         <div class="page-header">
@@ -234,7 +233,6 @@
     </article>
     <!--Inicio de los títulos de tecnologías CMS-->
 
-    </div>
 </section>
 
 <?php get_footer(); ?>

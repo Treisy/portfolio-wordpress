@@ -3,15 +3,28 @@ body {
   font-family: "Arial";
 }
 
+a {
+  outline: none;
+}
+
 h1.title-section {
   font-size: 4rem;
 }
 
-h2 {
+h2,
+h2 a {
   color: $orange;
   font-size: 3rem;
 }
 
 h3 {
   font-size: 2rem;
+}
+
+h2 a{
+  &:hover,
+  &:focus {
+    color: $blue-sky;
+    text-decoration: none;
+  }
 }

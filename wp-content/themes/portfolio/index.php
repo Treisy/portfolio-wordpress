@@ -14,35 +14,33 @@
 
 
 	<section class="portfolio-list">
-		<div class="container">
-			<div class="row">
-				<ol class="breadcrumb text-center">
-					<li class="active"><a href="#">All</a></li>
-					<li><a href="#">Sitios Web</a></li>
-					<li><a href="#">Aplicaciones Web</a></li>
-				</ol>
-			</div>
-			
+		<div class="row">
+			<ol class="breadcrumb text-center">
+				<li class="active"><a href="#">All</a></li>
+				<li><a href="#">Sitios Web</a></li>
+				<li><a href="#">Aplicaciones Web</a></li>
+			</ol>
+		</div>
+		
 
-			<div class="row">
+		<div class="row">
 
-				<?php while(have_posts()): the_post(); ?>
-					<div class="col-xs-12 col-md-6 col-lg-4">
-						
-						<a href="<?php the_permalink(); ?>">
-							<div class="thumbnail">
-								<?php the_post_thumbnail( 'full' ); ?>
+			<?php while(have_posts()): the_post(); ?>
+				<div class="col-xs-12 col-md-6 col-lg-4">
+					
+					<a href="<?php the_permalink(); ?>">
+						<div class="thumbnail">
+							<?php the_post_thumbnail( 'full' ); ?>
 
-								<div class="caption">
-									<?php the_title( '<h3 class="text-center">', '</h3>' ); ?>
-								</div>
+							<div class="caption">
+								<?php the_title( '<h3 class="text-center">', '</h3>' ); ?>
 							</div>
-						</a>
-					</div>
+						</div>
+					</a>
+				</div>
 
-				<?php endwhile; ?>
+			<?php endwhile; ?>
 
-			</div>
 		</div>
 	</section>
 

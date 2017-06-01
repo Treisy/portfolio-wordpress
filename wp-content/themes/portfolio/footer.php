@@ -1,3 +1,4 @@
+	</div>
 	<footer>
 		<section class="contact">
 			<div class="container">
@@ -23,6 +24,6 @@
 		</div>
 	</footer>
 	<!--<script src="scripts/vendors/jquery-3.1.0.min.js"></script>-->
-	<!--<script src="scripts/vendors/bootstrap.min.js"></script>-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

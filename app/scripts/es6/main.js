@@ -1,1 +1,5 @@
-console.log('\'Allo \'Allo!');
+'use strict';
+
+import progressBar from './modules/progress-bar';
+
+progressBar();
