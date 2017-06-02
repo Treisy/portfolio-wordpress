@@ -1,6 +1,26 @@
-.certifications-list{
-  margin-bottom: 3rem;
-  .thumbnail{
-    height: 400px;
-  }
+.certifications-list {
+    margin-bottom: 3rem;
+
+    a.collapsed {
+        color: $orange;
+    }
+
+    a[aria-expanded="true"] {
+        .fa-arrow-circle-down {
+            transform: rotate(180deg);
+        }
+    }
+
+    .caption {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .thumbnail {
+        min-height: 360px;
+    }
+
+    .panel {
+        border-bottom: none;
+    }
 }

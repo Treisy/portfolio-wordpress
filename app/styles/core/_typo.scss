@@ -21,7 +21,8 @@ h3 {
   font-size: 2rem;
 }
 
-h2 a{
+h2 a,
+h3 a {
   &:hover,
   &:focus {
     color: $blue-sky;

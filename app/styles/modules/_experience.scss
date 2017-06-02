@@ -1,16 +1,32 @@
 .experience-detail{
-  margin: 3rem;
-  .panel{
-    .panel-heading{
-      h3.panel-title{
-        font-size: 2.5rem;
-        color: $orange;
-      }
+    margin: 3rem;
+    .panel{
+        .panel-heading{
+            h3.panel-title{
+                font-size: 2.5rem;
+                color: $orange;
+
+                a {
+                    i {
+                        float: right;
+                    }
+                }
+
+                a.collapsed {
+                    color: $orange;
+                }
+
+                a[aria-expanded="true"] {
+                    .fa-arrow-circle-down {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+        }
+        .panel-body {
+            .list-group-item-heading{
+                color: darken($blue-sky, 10%);
+            }
+        }
     }
-    .panel-body{
-      .list-group-item-heading{
-        color: darken($blue-sky, 10%);
-      }
-    }
-  }
 }

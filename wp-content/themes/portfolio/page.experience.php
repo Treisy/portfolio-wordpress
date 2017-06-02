@@ -15,7 +15,7 @@
 </div>
 
 <section class="experience-detail">
-    <div class="row">
+    <div class="panel-group" id="accordionDiseno" role="tablist" aria-multiselectable="true">
         <?php 
             $args = array(
                 'post_type' => 'experiencia',
@@ -27,11 +27,14 @@
             $trabajo = new WP_Query( $args );
             while($trabajo->have_posts()): $trabajo->the_post();
         ?>
-        <div class="col-xs-12">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title"><?php the_title() ?></h3>
-                </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="diseno">
+                <h3 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#<?php echo get_the_ID(); ?>" aria-expanded="false" aria-controls="<?php echo get_the_ID(); ?>" class="collapsed">
+                            <?php the_title() ?> <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
+                </h3>
+            </div>
+            <div class="panel-collapse collapse" id="<?php echo get_the_ID(); ?>" role="tabpanel" aria-labelledby="<?php the_title() ?>">
                 <div class="panel-body">
                     <div class="list-group">
                         <h4 class="list-group-item-heading">Cargo</h4>
@@ -47,9 +50,14 @@
                     </div>
                 </div>
             </div>
+            
         </div>
+
         <?php endwhile; wp_reset_postdata();?>
     </div>
+    
+        
+
     <div class="row text-center">
         <a href="" class="btn btn-default">Descargar CV</a>
     </div>
