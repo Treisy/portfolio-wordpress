@@ -17,7 +17,7 @@
 <section class="certifications-list">
     <!--Inicio de los títulos universitarios-->
     <article>
-        <div class="panel-group" id="accordionDiseno" role="tablist" aria-multiselectable="true">
+        <div class="panel-group" id="accordionDiseno" role="tablist" aria-multiselectable="false">
             <div class="panel">
                 <div class="page-header" role="tab" id="diseno">
                     <h2>
@@ -40,10 +40,9 @@
                                 while($tituloUniversitario->have_posts()): $tituloUniversitario->the_post();
                             ?>
                             <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <?php the_post_thumbnail('large'); ?>
-                                    <div class="caption">
-                                        <span class="text-center"><?php the_title() ?></span>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <?php the_post_thumbnail('full'); ?>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +58,7 @@
 
     <!--Inicio de los títulos de herramientas web-->
     <article>
-        <div class="panel-group" id="accordionDiseno" role="tablist" aria-multiselectable="true">
+        <div class="panel-group" id="accordionDiseno" role="tablist" aria-multiselectable="false">
             <div class="panel">
                 <div class="page-header" role="tab" id="diseno">
                     <h2>
@@ -82,10 +81,9 @@
                                 while($herramientas_web->have_posts()): $herramientas_web->the_post();
                             ?>
                             <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <?php the_post_thumbnail('large'); ?>
-                                    <div class="caption">
-                                        <span class="text-center"><?php the_title() ?></span>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <?php the_post_thumbnail('full'); ?>
                                     </div>
                                 </div>
                             </div>
@@ -124,10 +122,9 @@
                                 while($diseno->have_posts()): $diseno->the_post();
                             ?>
                             <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <?php the_post_thumbnail('large'); ?>
-                                    <div class="caption">
-                                        <span class="text-center"><?php the_title() ?></span>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                       <?php the_post_thumbnail('full'); ?>
                                     </div>
                                 </div>
                             </div>
@@ -166,10 +163,9 @@
                                 while($tecnologias_frontend->have_posts()): $tecnologias_frontend->the_post();
                             ?>
                             <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <?php the_post_thumbnail('large'); ?>
-                                    <div class="caption">
-                                        <span class="text-center"><?php the_title() ?></span>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <?php the_post_thumbnail('full'); ?>
                                     </div>
                                 </div>
                             </div>
@@ -208,10 +204,9 @@
                                 while($tecnologias_backend->have_posts()): $tecnologias_backend->the_post();
                             ?>
                             <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <?php the_post_thumbnail('large'); ?>
-                                    <div class="caption">
-                                        <span class="text-center"><?php the_title() ?></span>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <?php the_post_thumbnail('full'); ?>
                                     </div>
                                 </div>
                             </div>
@@ -251,10 +246,9 @@
                                 while($mobile->have_posts()): $mobile->the_post();
                             ?>
                             <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <?php the_post_thumbnail('large'); ?>
-                                    <div class="caption">
-                                        <span class="text-center"><?php the_title() ?></span>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <?php the_post_thumbnail('full'); ?>
                                     </div>
                                 </div>
                             </div>
@@ -293,10 +287,9 @@
                                 while($cms->have_posts()): $cms->the_post();
                             ?>
                             <div class="col-sm-6 col-md-4">
-                                <div class="thumbnail">
-                                    <?php the_post_thumbnail('large'); ?>
-                                    <div class="caption">
-                                        <span class="text-center"><?php the_title() ?></span>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <?php the_post_thumbnail('full'); ?>
                                     </div>
                                 </div>
                             </div>

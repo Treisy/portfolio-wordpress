@@ -7,6 +7,15 @@
   }
 }
 
+.btn-ver {
+  color: $blue-sky;
+
+  &:hover,
+  &:focus {
+    color: $orange;
+  }
+}
+
 .btn-default{
   @include gradient-buttons(lighten($blue-sky, 40%), $blue-sky);
 

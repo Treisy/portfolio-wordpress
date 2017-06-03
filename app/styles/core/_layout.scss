@@ -17,10 +17,13 @@ img {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
     .text-wrapper {
         position: relative;
         height: 400px;
         width: 100%;
+
         .title-section {
             position: absolute;
             margin: auto;
@@ -32,4 +35,8 @@ img {
 
 .light-theme {
     color: $white;
+}
+
+.page-header{
+    margin: 25px 0 0;
 }

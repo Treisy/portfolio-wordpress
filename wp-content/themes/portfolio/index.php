@@ -27,16 +27,18 @@
 
 			<?php while(have_posts()): the_post(); ?>
 				<div class="col-xs-12 col-md-6 col-lg-4">
-					
-					<a href="<?php the_permalink(); ?>">
-						<div class="thumbnail">
-							<?php the_post_thumbnail( 'full' ); ?>
-
-							<div class="caption">
-								<?php the_title( '<h3 class="text-center">', '</h3>' ); ?>
-							</div>
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<a href="<?php the_permalink(); ?>">
+								<div class="image" style="background-image:url('<?php the_post_thumbnail_url('full'); ?>')"></div>
+							</a>
 						</div>
-					</a>
+						<div class="panel-footer text-center">
+							<a href="<?php the_permalink(); ?>">
+								<?php the_title( '<span>', '</span>' ); ?>
+							</a>
+						</div>
+					</div>
 				</div>
 
 			<?php endwhile; ?>

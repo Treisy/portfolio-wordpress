@@ -1,5 +1,5 @@
 .certifications-list {
-    margin-bottom: 3rem;
+    margin: 3rem 0;
 
     a.collapsed {
         color: $orange;
@@ -11,16 +11,19 @@
         }
     }
 
-    .caption {
-        text-align: center;
-        font-size: 2.2rem;
-    }
-
-    .thumbnail {
-        min-height: 360px;
-    }
-
-    .panel {
+    .panel-group > .panel {
         border-bottom: none;
+        
     }
+
+    .panel.panel-default {
+        margin-bottom: 25px;
+
+        .panel-body {
+            padding: 0;
+            height: auto;
+        }
+    }
+
+    
 }

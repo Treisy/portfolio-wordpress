@@ -1,6 +1,27 @@
 .portfolio-list{
-  margin-bottom: 3rem;
-  .thumbnail{
-    height: 294px;
-  }
+    margin-bottom: 3rem;
+
+    .panel-body {
+        padding: 0;
+
+        .image {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 350px;
+        }
+    }
+
+    .panel-footer {
+        a {
+            color: $orange;
+
+            &:hover,
+            &:focus {
+                color: $blue-sky;
+            }
+        }
+
+        
+    }
 }

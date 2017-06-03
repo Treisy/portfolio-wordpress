@@ -12,7 +12,8 @@
       "main": [
         "assets/stylesheets/_bootstrap.scss",
         "assets/javascripts/bootstrap/transition.js",
-        "assets/javascripts/bootstrap/modal.js"
+        "assets/javascripts/bootstrap/modal.js",
+        "assets/javascripts/bootstrap/collapse.js"
       ]
     }
   },
