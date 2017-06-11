@@ -14,15 +14,7 @@
 
 
 	<section class="portfolio-list">
-		<div class="row">
-			<ol class="breadcrumb text-center">
-				<li class="active"><a href="#">All</a></li>
-				<li><a href="#">Sitios Web</a></li>
-				<li><a href="#">Aplicaciones Web</a></li>
-			</ol>
-		</div>
 		
-
 		<div class="row">
 
 			<?php while(have_posts()): the_post(); ?>

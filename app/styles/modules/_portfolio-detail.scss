@@ -1,0 +1,30 @@
+.portfolio-detail {
+    .img-galeria {
+        margin-bottom: 20px;
+    }
+
+    .img-principal {
+        margin-bottom: 15px;
+    }
+
+    .info {
+        margin-bottom: 1.5em;
+    }
+    
+    .links {
+        color: $orange;
+
+        &:hover,
+        &:focus {
+            color: $blue-sky;
+            text-decoration: underline;
+        }
+    }
+
+    @include breakpoint('tablet') {
+        .galeria {
+            margin-top: 2.5em;
+        }
+
+    }
+}
