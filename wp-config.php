@@ -18,18 +18,20 @@
  * @package WordPress
  */
 
+$url = parse_url(getenv('DATABASE_URL') ? getenv('DATABASE_URL') : getenv('CLEARDB_DATABASE_URL'));
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'portfolio-wordpress');
+define('DB_NAME', trim($url['path'], '/'));
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', $url['user']);
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', $url['pass']);
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', $url['host']);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -46,14 +48,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'zSe7upWIv_MqfSvzt6L&Pn@kZ:Wsp-(VEi7Q(V(0GOK,_N?RuDXo3|vp[Ms:Py,:');
-define('SECURE_AUTH_KEY',  '14L*FMRf*-J}yFRGjjlHD4|m09<xv@JwjWMVGtf=j&([^s,s,H+^Py?f7Q 79]?5');
-define('LOGGED_IN_KEY',    '[j)eWnH&,`zLc$#d8LrGEw!5vr1187J$$1Bcd3-hEkn31q3#w/K.bTbi4t$!J^b}');
-define('NONCE_KEY',        'cA>($vY07]AA[(4H_.R{0beX%%ykV~xA%wwtG2Z~$YmHzy?{po&fBR@c8[!66WyV');
-define('AUTH_SALT',        '>6DWFJkI;HfCV>)D*$xn.|wIL2qFc6J)`^JSQR/;)p5~jLKQlA(56VIe0QX1T9u9');
-define('SECURE_AUTH_SALT', 'KQ7u*<>[x(YXq#}!|^8T2L3_8rVxpy9j1G$ErgZ0LgL.(i6^2BoHj%#0}t 1{VrS');
-define('LOGGED_IN_SALT',   'bzDbdtb{pP&qv&>arzeS<?:lOSg^XvM {3*i}A~b~0/0enIK)lNG];l@7x-c%ZI2');
-define('NONCE_SALT',       '<wugd8/%Y^JF,nS}TY+!opS&{0txNjY-;1rQbu(P!&hd]0lNX`3fF]^W3YvtFarM');
+define('AUTH_KEY',         getenv('AUTH_KEY'));
+define('SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY'));
+define('LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY'));
+define('NONCE_KEY',        getenv('NONCE_KEY'));
+define('AUTH_SALT',        getenv('AUTH_SALT'));
+define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT'));
+define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
+define('NONCE_SALT',       getenv('NONCE_SALT'));
 
 /**#@-*/
 

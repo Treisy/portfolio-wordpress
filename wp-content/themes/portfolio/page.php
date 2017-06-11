@@ -15,6 +15,7 @@ $imagen = wp_get_attachment_image_src( $imagen, full );
 
 <section class="portfolio-list">
 
+
 	<div class="row">
 		
 		<?php while(have_posts()): the_post(); ?>
@@ -36,6 +37,7 @@ $imagen = wp_get_attachment_image_src( $imagen, full );
 		<?php endwhile; ?>
 
 	</div>
+
 </section>
 
 
