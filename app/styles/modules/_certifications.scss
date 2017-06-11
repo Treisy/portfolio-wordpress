@@ -18,10 +18,17 @@
 
     .panel.panel-default {
         margin-bottom: 25px;
+        border: none;
 
         .panel-body {
             padding: 0;
             height: auto;
+            transition: .3s all ease;
+
+            &:hover {
+                box-shadow: 6px 8px 24px 0 rgba(38,38,38,0.2);
+                transform: translateY(-10px);
+            }
         }
     }
 
