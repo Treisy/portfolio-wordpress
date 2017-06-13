@@ -22,7 +22,7 @@
 					<div class="panel panel-default">
 						<div class="panel-body">
 							<a href="<?php the_permalink(); ?>">
-								<div class="image" style="background-image:url('<?php the_post_thumbnail_url('full'); ?>')"></div>
+								<div class="image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/principal/<?php the_field('destacada') ?>')"></div>
 							</a>
 						</div>
 						<div class="panel-footer text-center">
