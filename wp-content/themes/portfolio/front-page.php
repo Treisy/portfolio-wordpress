@@ -36,6 +36,10 @@
                         <?php 
                             $imageID = get_post_thumbnail_id($page->ID);
                             $image = wp_get_attachment_image_src( $imageID, 'thumbnail' );
+
+                            $variable = get_field('imagen_destacada');
+                            
+                            echo $variable;
                         ?>
                         <img src="<?php echo $image[0] ?>" alt="" class="img-responsive img-circle img-section">
                         <h2 class="text-center"><?php echo $page->post_title; ?></h2>
