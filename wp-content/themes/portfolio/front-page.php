@@ -44,7 +44,7 @@
                         <img src="<?php echo $image[0] ?>" alt="" class="img-responsive img-circle img-section">
                         <h2 class="text-center"><?php echo $page->post_title; ?></h2>
                         <div class="hidden-xs text-center"><?php echo $page->post_content; ?></div>
-                        <a href="<?php echo get_page_link( $page->ID ); ?>" target="_self" class="btn-ver">See more</a>
+                        <a href="<?php echo get_page_link( $page->ID ); ?>" target="_self" class="btn-ver">Ver más</a>
                     </article>
                 </div>
 
