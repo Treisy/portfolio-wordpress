@@ -61,7 +61,7 @@
 	                        <?php if(get_field('repositorio')): ?>
 	                            <div class="col-xs-12 col-sm-4 col-sm-offset-2 text-center">
 	                                <a href="<?php echo the_field('repositorio'); ?>" class="links" target="_blank">
-	                                    <i class="fa fa-github" aria-hidden="true"></i> Repository
+	                                    <i class="fa fa-github" aria-hidden="true"></i> Repositorio
 	                                </a>
 	                            </div>
 							<?php endif; ?>
@@ -69,7 +69,7 @@
 	                        <?php if(get_field('link')): ?>
 	                            <div class="col-xs-12 col-sm-4 text-center">
 	                                <a href="<?php echo the_field('link'); ?>" class="links" target="_blank">
-		                                <i class="fa fa-video-camera" aria-hidden="true"></i> View Project
+		                                <i class="fa fa-video-camera" aria-hidden="true"></i> Ver Proyecto
 	                                </a>
 	                            </div>
 							<?php endif; ?>
