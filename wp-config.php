@@ -18,10 +18,6 @@
  * @package WordPress
  */
 
-//define('WP_HOME','https://portfolio-treisy-jimenez-vega.herokuapp.com');
-
-//define('WP_SITEURL','https://portfolio-treisy-jimenez-vega.herokuapp.com');
-
 $url = parse_url(getenv('DATABASE_URL') ? getenv('DATABASE_URL') : getenv('CLEARDB_DATABASE_URL'));
 
 // ** MySQL settings - You can get this info from your web host ** //
@@ -93,3 +89,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+$_SERVER['HTTPS'] = 'on';
