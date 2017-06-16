@@ -162,12 +162,16 @@ function portfolio_habilidades() {
 
 add_action('init', 'portfolio_remove_textarea',100);
 function portfolio_remove_textarea(){
-    $post_type_certificaciones = 'certificaciones';
-    remove_post_type_support( $post_type_certificaciones, 'editor');
 	$post_type_experiencia = 'experiencia';
     remove_post_type_support( $post_type_experiencia, 'editor');
 	$post_type_habilidades = 'habilidades';
     remove_post_type_support( $post_type_habilidades, 'editor');
 }
+
+function ss_allow_skype_protocol( $protocols ){
+	$protocols[] = 'skype';
+	return $protocols;
+}
+add_filter( 'kses_allowed_protocols' , 'ss_allow_skype_protocol' );
 
 ?>
