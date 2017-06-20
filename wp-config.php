@@ -18,8 +18,8 @@
  * @package WordPress
  */
 
-define('FORCE_SSL_LOGIN', true);
-define('FORCE_SSL_ADMIN', true);
+//define('FORCE_SSL_LOGIN', true);
+//define('FORCE_SSL_ADMIN', true);
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
